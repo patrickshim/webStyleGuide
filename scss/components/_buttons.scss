@@ -14,8 +14,7 @@
 
 .default {
   background-color: $default-btn-color;
-  transition: background-color .5s ease-in-out;
-  cursor: pointer;
+  @include btnTransitionPointer;
   &:hover {
     background-color: lighten($default-btn-color, 15%);
   }
@@ -23,8 +22,7 @@
 
 .error {
   background-color: $error-btn-color;
-  transition: background-color .5s ease-in-out;
-  cursor: pointer;
+  @include btnTransitionPointer;
   &:hover {
     background-color: lighten($error-btn-color, 15%);
   }
@@ -32,8 +30,7 @@
 
 .info {
   background-color: $info-btn-color;
-  transition: background-color .5s ease-in-out;
-  cursor: pointer;
+  @include btnTransitionPointer;
   &:hover {
     background-color: lighten($info-btn-color, 15%);
   }
@@ -41,8 +38,7 @@
 
 .success {
   background-color: $success-btn-color;  
-  transition: background-color .5s ease-in-out;
-  cursor: pointer;
+  @include btnTransitionPointer;
   &:hover {
     background-color: lighten($success-btn-color, 15%);
   }
@@ -50,8 +46,7 @@
 
 .warning {
   background-color: $warning-btn-color;
-  transition: background-color .5s ease-in-out;
-  cursor: pointer;
+  @include btnTransitionPointer;
   &:hover {
     background-color: lighten($warning-btn-color, 15%);
   }

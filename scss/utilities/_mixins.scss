@@ -1,15 +1,20 @@
 /* ============================================= */
  /* Mixins */
  /* ============================================= */
- @mixin blockAuto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    @content;
- }
+@mixin blockAuto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+@content;
+}
 
- @mixin marginTopMaxWidth {
-   margin-top: 10px;
-   max-width: 100%;
-   @content;
- }
+@mixin marginTopMaxWidth {
+  margin-top: 10px;
+  max-width: 100%;
+@content;
+}
+
+@mixin btnTransitionPointer {
+  transition: background-color .5s ease-in-out;
+  cursor: pointer;
+}
