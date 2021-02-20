@@ -24,7 +24,7 @@
     }
     @for $i from 1 through 12 {
       .col-#{$i} {
-        flex-basis: $flex-basis * $i;
+        flex-basis: $flex-basis-col * $i;
       }
     }
     .nav {
@@ -35,18 +35,15 @@
         flex-basis: 100px;
       }
     }
-    
     .btn {
       padding: 10px 30px;
       & + .btn {
         margin-left: 10px;
       }  
     }
-    
     .logo {
       margin-left: initial;
       margin-right: initial;
     }
   }
-  
 }
