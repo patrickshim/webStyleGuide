@@ -4,10 +4,29 @@
 
 // Button color
 $default-btn-color: #51ddfc;
-$success-btn-color: #e4757a;
-$error-btn-color: #927bc1;
-$warning-btn-color: #63cc82;
-$info-btn-color: #fd7856;
+$success-btn-color: #63cc82;
+$error-btn-color: #e4757a;
+$warning-btn-color: #fd7856;
+$info-btn-color: #927bc1;
 
 // Breakpoints
 $break-tablet: 768px;
+
+// Background-color map
+$background-colors: (
+  #927bc1,
+  #fd7856,
+  #deb2ee,
+  #7ee6fd,
+  #88d9a0,
+  #4da2bb,
+  #ec9fa3,
+  #fd9f85,
+  #e4757a,
+  #63cc82,
+  #51ddfc,
+  #80e8d1,
+);
+
+// Flex-basis
+$flex-basis: 8.34%
